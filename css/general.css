@@ -1,72 +1,148 @@
 @charset "utf-8";
 /* CSS Document */
-
+article, aside, figure, footer, header, hgroup, nav, section {
+	display:block;
+}
 html {
 	margin:0;
 	padding: 0;
-	background-color:#f5f5f5;
-	/*#FA6D54;*/
-	/*#F8A595;*/
+	background-color:#E6E6E6;
+	/*background-color: #D9E021;*/
 	color: #666666;
-	/*font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;*/
-	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+/*	font-family: "Century Gothic", Arial, Helvetica, sans-serif;*/
 	font-size:120%;
-	width:100%;
 }
 
 body {
 	margin: 0 auto;
+	padding: 0;
 	width: 90%;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
+	
 	
 }
 header {
-	background: 
+	/*background: #FFFFFF url(../images/erikalogo3.png) top left no-repeat;*/
+	background-color: #FFFFFF;
+    height: 107px;
+    padding-left: 0.5%;
+    padding-top: 1em;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #FFFFFF;
+	float:right;
+	overflow:hidden;
+	
+}
 .menu {
-	background:#FF3300;
+	margin:0;
+	padding: 0;
 	text-align: center;
-	/*padding-top: 8em;*/
-	padding: 0.5em 0em;
+	float:right;	
+	overflow: hidden;
+	width: 100%;
+	background-color: #ffffff;
+	
 
 }
 
 .menu ul {
+	margin: 0;
+	margin-right: 1%;
+	
 	list-style-type: none;
 	/*display: inline-block;*/
+	/*list-style: none;*/
+	
+	float:right;
+	/*padding: 0.8em 0 1em;*/
+
 }
 
 .menu li {
+	
+	padding: 0;
+	/*background:#D9E021;*/
 	display: inline-block;
+	background:#D9E021;
+	margin: 0;
+	
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
 }
 .menu a {
+	margin: 0;
+	padding: 0 15px;
+	line-height: 3em;
 	text-decoration: none;
-	color:#ffffff;
+	text-transform: uppercase;
+	color:#666666;
+	
+	/*-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+*/
 }
-h1 {
-	 background: #CC3;
-	 background: -moz-linear-gradient(top, #cc3, #39F);
-	 background: -webkit-gradient(linear, left top, left bottom, from(#cc3), to(#39F));
-	 padding: 10px 20px;
-	 margin-left: -20px;
-	 margin-top: 0;
-	 position: relative;
-	 width: 70%;
 
-	-moz-box-shadow: 1px 1px 3px #BFE813;
-	-webkit-box-shadow: 1px 1px 3px #BFE813;
-
-	color: #454545;
-	text-shadow: 0 1px 0 white;
+.boxwrapper {
+	background-color: #D9E021;
+    float: left;
+    margin: 0 1%;
+    overflow: hidden;
+    width: 98%;
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 }
-.arrow {  
-     width: 0; height: 0;  
-     line-height: 0;  
-     border-left: 20px solid transparent;  
-     border-top: 10px solid #c8c8c8;  
-     top: 104%;  
-     left: 0;  
-     position: absolute;  
-}  
 .content {
+	clear:both;
+	/*background-color: #E6E6E6;*/
+	background-color: #F2F2F2;
 	padding-left: 1em;
+	 margin: 2em 0 1em 2em;
+	/*padding-top: 1em;*/
+	width: 38%;
+	float: left;
+	/*border: solid 3px #D9E021;*/
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+	-webkit-box-shadow: 7px 7px 5px rgba(107, 107, 16, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(107, 107, 16, 0.75);
+	box-shadow:         7px 7px 5px rgba(107, 107, 16, 0.75);
+}
+
+
+.sliderwrapper {
+	background-color: #F2F2F2;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 7px 7px 5px rgba(107, 107, 16, 0.75);
+    float: left;
+    margin: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 50.8%;
+	-webkit-box-shadow: 7px 7px 5px rgba(107, 107, 16, 0.75);
+-moz-box-shadow:    7px 7px 5px rgba(107, 107, 16, 0.75);
+box-shadow:         7px 7px 5px rgba(107, 107, 16, 0.75);
+}
+.highlight {
+	color: #1b8b75;
 }
