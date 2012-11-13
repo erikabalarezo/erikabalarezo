@@ -4,25 +4,69 @@
 	<meta charset="utf-8">
 	<title>Erika Balarezo</title>
 	<link href="css/general.css" rel="stylesheet">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+		$('.flexslider').flexslider();
+	  });
+	</script>
 </head>
 
 <body>
 	<header>
-		
+		<img src="images/erikalogo3.png" alt="erika balarezo logo">
 	</header>
-	<nav class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a class="worktab" href="#">Work</a></li>
-            <li><a class="aboutab" href="#">About</a></li>
-            <li><a class="contactab" href="#">Contact</a></li>        
-        </ul>
-    </nav>
-	<div id="container">
-		<h1>Hello<span class="arrow"></span></h1>
+	
+	<div class="wrapper">
+		<nav class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a class="worktab" href="#">Portfolio</a></li>
+				<li><a class="aboutab" href="#">About</a></li>
+				<li><a class="contactab" href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="boxwrapper">
+			<div class="content">
+				<h1>Hello!</h1>
+					<p>My name is Erika Balarezo. I am a web developer and designer.</p>
+					<p>When I work on a project I take into consideration colour, layout, accessibility, usability and web standards. I aim for what is visually attractive and effective.</p>
+					<p>I use HTML, CSS, PHP, MySql, Javascript, JQuery, ActionScript, Wordpress, Photoshop, Illustrator and other software to build beautiful and robust websites.</p>
+					<p>Enjoy a few of my creations and you can see more in my portfolio section.</p>
+					<h2>Need a web developer or designer? <span class="highlight">Contact me!</span></h2>
+			</div>
+			<div class="sliderwrapper">
+				<h2>Recent projects</h2>
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="images/slide1.jpg" alt="screenshot of Maria Reid Homeopath website">
+							<p class="flex-caption">A responsive website: Maria Reid Homeopath</p>
+						</li>
+						<li>
+						 <img src="images/slide1.jpg" alt="screenshot of Maria Reid Homeopath website">
+						 <p class="flex-caption">A responsive website: Maria Reid Homeopath</p>
+						</li>
+						<li>
+						 <img src="images/slide1.jpg" alt="screenshot of Maria Reid Homeopath website">
+						 <p class="flex-caption">A responsive website: Maria Reid Homeopath</p>
+						</li>
+					</ul>
+				</div>
+			<div class= "socialmediabox">
+				
+			</div><!--end of class social media-->	
+				
+				
+				
+				
+			</div>
+		</div>
 	</div>
-	<div class="content">
-		<p>I am Erika Balarezo, a web developer and designer</p>
-	</div>
+	<footer>
+		<p>Copyright erika balarezo</p>
+	</footer>
 </body>
 </html>
