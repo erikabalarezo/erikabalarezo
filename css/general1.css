@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin:0;
+	padding: 0;
+	background-color:#ffffff;
+	color: #666666;
+	/*font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+	font-size:120%;
+}
+
+body {
+	margin: 0 auto;
+	width: 90%;
+	background-color: #D9E021;
+	position: relative;
+	
+}
+header {
+	background: #FFFFFF url(../images/erikalogo3.png) top left no-repeat;
+	 width: 587px;
+	height: 165px;
+	position: absolute;
+	 top: 1em;
+	 left: 0.5em;
+}
+
+
+.menu {
+	
+	/*background:#ffffff url(../images/erikalogo3.png) top left no-repeat;*/
+	text-align: right;
+	 padding: 5.9em 0 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+
+.menu ul {
+	background:#D9E021;
+	list-style-type: none;
+	/*display: inline-block;*/
+	
+	float:right;
+	padding: 0.8em 0 1em;
+    width: 40%;
+}
+
+.menu li {
+	
+	padding: 0 2em;
+	/*background:#D9E021;*/
+	display: inline-block;
+	
+}
+.menu a {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.wrapper {
+	background-color: #D9E021;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.contentwrapper {
+	background-color:#903;
+}
+.content {
+	background-color: #E6E6E6;
+	padding-left: 1em;
+	margin: 1em;
+	padding-top: 1em;
+	width: 40%;
+	float: left;
+	border: solid 3px #D9E021;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+.sliderwrapper {
+	width: 40%;
+	background-color: #F30;
+	float:left;
+	margin-left: 1em;
+}
